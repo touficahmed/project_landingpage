@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+/***Default Css ***/
+:root{
+    --theme-color: #4B2E25 ;
+    --second-color:#945b00;
+    --third-color:#4a3410;
+    --bgcolor_1:#EDDCC2;
+    --bgcolor_2:#d5d5d5;
+    --bgcolor_3:#445444;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Gelasio", serif;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.container{
+    max-width: 1200px;
+    margin:  auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.col_1_2{
+    flex-basis: 50%;
+    max-width: 50%;
+}
+.col_1_3{
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+}
+.col_1_4{
+    flex-basis: 25%;
+    max-width: 25%;
+}
+.paddingX-25px{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 20PX;
+}
+p{
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+/***Default Css ***/
+
+
+/***Nav Css ***/
+header{
+    background-color: var(--theme-color) ;
+    padding: 10px 0;
+}
+.logo{
+    flex-basis: 20%;
+    max-width: 20%;
+}
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+}
+.logo img{
+    filter: brightness(0) invert(1);
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+nav a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    font-weight: 100;
+}
+
+/***Nav Css ***/
+
+/***Hero banner Css***/
+.herobanner{
+    background-image: url(../images/Hero\ Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.herobannercontent{
+    padding-top: 190px;
+    padding-bottom: 190px;
+    flex-basis: 900px;
+    max-width: 900px;
+    text-align: center;
+}
+.herobannercontent h1{
+    color: var(--second-color);
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+.herobannercontent p{
+    font-size: 18px;
+    color: var(--third-color);
+}
+/***Hero banner Css***/
+
+/***About Section Css***/
+.aboutSection{
+    padding: 50px 0;
+    background-color: var(--bgcolor_1);
+}
+.aboutSection h2{
+    color: var(--second-color);
+    
+}
+.aboutSection p{
+    color: var(--theme-color)
+}
+
+/***About Section Css***/
+
+/***Feature section Css***/
+.featuresection{
+    padding: 50px 0;
+}
+.feature{
+    border: 1px solid var(--bgcolor_2);
+    display: flex;
+    padding: 15px 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    text-align: center;
+    height: 100%;
+}
+.feature img{
+    height: 100px;
+}
+.feature p{
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.featuresection .col_1_3, .col_1_4{
+    padding: 10px;
+}
+
+
+/***Feature section Css***/
+
+/***imagewithtextSection CSS***/
+
+.imagewithtextSection{
+    background-color: var(--bgcolor_3);
+    padding: 50px 0;
+}
+.imagewithtextSection h2, .imagewithtextSection p{
+color: #fff;
+}
+
+/***imagewithtextSection CSS***/
+
+
+/***Brand Story section CSS***/
+.brandstorysection{
+    padding: 80px 0;
+}
+.brandstorycontent{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.brandstorycontent h3{
+    color: var(--theme-color);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.brandstorycontent p{
+    color: var(--theme-color);
+}
+.brandstorysection img{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.brandstorysection .reverse img{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+/***Brand Story section CSS***/
+
+/***Text section CSS***/
+.textSectionOne{
+    background-color: var(--bgcolor_1);
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+.textSectionTwo{
+    padding-top: 300px;
+    padding-bottom: 100px;
+}
+.textSectionOne, .textSectionTwo{
+    text-align: center;
+}
+/***Text section CSS***/
+
+/***christmasoffer CSS***/
+.christmasoffer{
+    background-image: url(../images/bannerr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: -250px;
+    margin-top: -250px;
+    position: relative;
+}
+.offercontent{
+    max-width: 800px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offercontent a{
+    padding: 10px 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 30px;
+    color: var(--bgcolor_3);
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+.offercontent a:hover{
+    background-color: #232323;
+    color: #fff;
+}
+/***christmasoffer CSS***/

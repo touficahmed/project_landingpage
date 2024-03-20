@@ -1,0 +1,136 @@
+@media(max-width:1400px){
+    .container{
+        max-width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+        .herobannercontent{
+        flex-basis: 850px;
+        max-width: 850px;
+        padding-top: 130px;
+        padding-bottom:130px ;
+        }
+        .herobannercontent p{
+            font-size: 24px;
+        }
+        .imagewithtextSection img{
+            max-width: 400px;
+        }
+        .brandstorycontent{
+            max-width: 500px;
+        }
+        .christmasoffer{
+            max-width: 900px !important;
+        }
+    }
+    @media(max-width:1200px){
+        .herobannercontent p{
+            font-size: 20px;
+        }
+        .herobannercontent{
+            flex-basis: 700px;
+            max-width: 700px;
+        }
+        .paddingX-50px{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .feature{
+            padding-left: 15px 20px;
+        }
+        .feature p{
+            font-size: 16px;
+        }
+        .featuresection .col_1_3, .featuresection .col_1_4{
+            padding: 5px;
+        }
+        .brandstorycontent{
+            padding: 26px;
+        }
+        .christmasoffer{
+            max-width: 800px !important;
+            min-height: 400px;
+            margin-bottom: -200px;
+            margin-top: -200px;
+        }
+        .textSectionOne .col_1_2, .textSectionOne .col_1_2{
+            flex-basis: 60%;
+            max-width: 60%;
+        }
+    }
+    
+   @media(max-width:767px){
+    
+        .container{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        header .row{
+            flex-direction: column;
+            gap: 15px;
+        }
+        .logo img{
+            width: 90px;
+        }
+        .herobannercontent{
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+        .herobannercontent h1 {
+            font-size: 30px;
+        }
+        .herobannercontent p {
+            font-size: 16px;
+        }
+        .aboutSection .row{
+            flex-direction: column-reverse;
+        }
+        .col_1_2{
+            flex-basis: 100%;
+            max-width: 100%;
+        }
+        .aboutSection h2{
+            padding-top: 30px;
+            font-size: 27px;
+        }
+        .col_1_4{
+            flex-basis: 50%;
+            max-width: 50%;
+        }
+        .imagewithtextSection h2{
+            padding-top:30px ;
+            font-size: 27px;
+        }
+        .brandstorysection img, .brandstorysection .reverse img{
+            border-radius: 12px;
+            width: 90%;
+            margin: auto;
+        }
+        .textSectionOne .col_1_2, .textsectionTwo .col_1_2 {
+            flex-basis: 100% !important;
+            max-width: 100% !important;
+        }
+        .textSectionOne{
+            padding-top: 40px;
+            padding-bottom: 0;
+        }
+        .christmasoffer {
+            padding: 30px;
+            padding-top: 50px;
+            max-width: 95% !important;
+            width: calc(100%-20px);
+            margin-top: 15px;
+            min-height: auto;
+            margin-bottom: 0;
+        }
+        .christmasoffer h2{
+            font-size: 24px;
+            padding: 0 70px;
+        }
+        .christmasoffer p{
+            font-size: 16px;
+        }
+        .textSectionTwo {
+           padding-top: 30px;
+        }
+   }
